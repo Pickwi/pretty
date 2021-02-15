@@ -1,0 +1,15 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.3fr 1.6fr 0.3fr;
+    grid-template-rows: 0.2fr 2.7fr 0.2fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "head head head"
+      "L midle R"
+      "footer footer footer";
+  }
+  .head { grid-area: head; }
+  .footer { grid-area: footer; }
+  .midle { grid-area: midle; }
+  .L { grid-area: L; }
+  .R { grid-area: R; }
